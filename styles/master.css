@@ -69,6 +69,33 @@ body {
 }
 
 
+/*
+  Секция .edu
+*/
+
+.edu {
+  height: 90vh;
+  display: flex;
+}
+.post,
+.research {
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 50%;
+}
+.post {
+  background-image: url(../img/post.jpg);
+}
+.research {
+  background-image: url(../img/research.jpg);
+}
+
+
+
+
+
+
 
 
 
