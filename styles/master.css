@@ -83,6 +83,10 @@ body {
   background-position: center;
   height: 100%;
   width: 50%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .post {
   background-image: url(../img/post.jpg);
@@ -90,7 +94,21 @@ body {
 .research {
   background-image: url(../img/research.jpg);
 }
-
+.post a {
+  background: #fff;
+  color: red;
+  white-space: pre-line;
+}
+.research a {
+  background: red;
+  color: #fff;
+}
+.post a,
+.research a {
+  padding: 10px 15px;
+  font-size: 40px;
+  text-decoration: none;
+}
 
 
 
