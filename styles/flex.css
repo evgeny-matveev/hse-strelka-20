@@ -1,0 +1,13 @@
+.parent {
+  border: 5px dotted rgba(0,0,0,0.5);
+  background: yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.child {
+  border: 1px solid red;
+  background: green;
+  color: #fff;
+  width: 200px;
+}
